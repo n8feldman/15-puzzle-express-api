@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const exampleSchema = new mongoose.Schema(
+const puzzleSchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -21,4 +21,4 @@ const exampleSchema = new mongoose.Schema(
   }
 )
 
-module.exports = mongoose.model('Example', exampleSchema)
+module.exports = mongoose.model('Puzzle', puzzleSchema)
